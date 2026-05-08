@@ -1,16 +1,9 @@
-D:/CE213/DO_AN/Code_Checker.v {1 {vlog -work work D:/CE213/DO_AN/Code_Checker.v
+D:/CE213/DO_AN/Keypad_Scanner_tb.v {1 {vlog -work work D:/CE213/DO_AN/Keypad_Scanner_tb.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module Code_Checker
+-- Compiling module Keypad_Scanner_tb
 
 Top level modules:
-	Code_Checker
-
-} {} {}} D:/CE213/DO_AN/Keypad_Scanner.v {1 {vlog -work work D:/CE213/DO_AN/Keypad_Scanner.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module Keypad_Scanner
-
-Top level modules:
-	Keypad_Scanner
+	Keypad_Scanner_tb
 
 } {} {}} D:/CE213/DO_AN/Code_Checker_tb.v {1 {vlog -work work D:/CE213/DO_AN/Code_Checker_tb.v
 Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
@@ -18,15 +11,5 @@ Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 
 Top level modules:
 	Code_Checker_tb
-
-} {} {}} D:/CE213/DO_AN/Common_Params.v {1 {vlog -work work D:/CE213/DO_AN/Common_Params.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
-
-} {} {}} D:/CE213/DO_AN/Keypad_Scanner_tb.v {1 {vlog -work work D:/CE213/DO_AN/Keypad_Scanner_tb.v
-Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
--- Compiling module Keypad_Scanner_tb
-
-Top level modules:
-	Keypad_Scanner_tb
 
 } {} {}}

@@ -49,11 +49,13 @@ set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
 set_global_assignment -name DEVICE_FILTER_PIN_COUNT 672
 set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
-set_global_assignment -name VERILOG_FILE Keypad_Scanner.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name VERILOG_FILE Password_Memory.v
+set_global_assignment -name VERILOG_FILE LCD.v
+set_global_assignment -name VERILOG_FILE Keypad_Scanner.v
 set_global_assignment -name VERILOG_FILE Common_Params.v
 set_global_assignment -name VERILOG_FILE Keypad_Scanner_tb.v
 set_global_assignment -name VERILOG_FILE Code_Checker.v

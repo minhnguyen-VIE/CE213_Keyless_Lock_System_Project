@@ -1,35 +1,34 @@
 module Code_Checker(
     input wire clk,
     input wire rst_n,
-    input wire [23:0] input_buffer,    // D? li?u ng??i dùng ?ã nh?p
+    input wire [23:0] input_buffer,    // D? li?u ng??i dï¿½ng ?ï¿½ nh?p
     input wire [23:0] stored_password, // M?t kh?u g?c
-    input wire en_compare,             // L?nh kích ho?t so sánh
-    input wire clear_flag,             // L?nh xóa tr?ng thái
+    input wire en_compare,             // L?nh kï¿½ch ho?t so sï¿½nh
+    input wire clear_flag,             // L?nh xï¿½a tr?ng thï¿½i
     
-    output reg match_flag              // C? báo kh?p m?t kh?u
+    output reg match_flag              // C? bï¿½o kh?p m?t kh?u
 );
 
     // -------------------------------------------------------
-    // LÕI T? H?P (COMBINATIONAL CORE)
+    // Lï¿½I T? H?P (COMBINATIONAL CORE)
     // -------------------------------------------------------
     wire is_matched = (input_buffer == stored_password);
 
     // -------------------------------------------------------
     // V? TU?N T? (SEQUENTIAL WRAPPER)
     // -------------------------------------------------------
-    always @(posedge clk or negedge rst_n) begin // <--- Chú ý t? khóa 'begin' ? ?ây
+    always @(posedge clk or negedge rst_n) begin // <--- Chï¿½ ï¿½ t? khï¿½a 'begin' ? ?ï¿½y
         if (!rst_n) begin
             match_flag <= 1'b0;
         end else begin
-            // ?u tiên 1: Xóa tr?ng thái
+            // ?u tiï¿½n 1: Xï¿½a tr?ng thï¿½i
             if (clear_flag) begin
                 match_flag <= 1'b0;
             end 
-            // ?u tiên 2: Th?c hi?n so sánh khi có l?nh
+            // ?u tiï¿½n 2: Th?c hi?n so sï¿½nh khi cï¿½ l?nh
             else if (en_compare) begin
                 match_flag <= is_matched;
             end
         end
     end
-
 endmodule

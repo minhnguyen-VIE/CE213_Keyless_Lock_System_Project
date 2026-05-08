@@ -19,3 +19,20 @@
 `define KEY_CLR   4'hC  // Clear (Xóa sạch)
 `define KEY_HIDE  4'hD  // Hide/Show (Ẩn hiện mã)
 `define KEY_NONE  4'hF  // Trạng thái không nhấn
+
+// Trạng thái cơ bản
+`define MSG_WELCOME  "WELCOME TO LAB  "
+`define MSG_IDLE     "ENTER PASSWORD: "
+`define MSG_CORRECT  "ACCESS GRANTED  "
+`define MSG_WRONG    "WRONG PASSWORD! "
+
+// Trạng thái cài đặt & đổi pass
+`define MSG_SET_INIT "SET INITIAL PWD "
+`define MSG_SET_NEW  "SET NEW PASS:   "
+`define MSG_CHG_OLD  "ENTER OLD PASS: "
+`define MSG_CHG_NEW  "NEW PWD MODE:   "
+
+// Trạng thái khóa & mở
+`define MSG_LOCKED   "SYSTEM LOCKED!  "
+`define MSG_UNLOCKED "DOOR IS OPENED  "
+`define MSG_CLEAR    "
