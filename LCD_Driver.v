@@ -47,16 +47,16 @@ module LCD_Driver (
     assign LCD_ON = 1'b1;
  
     // Sequence khởi tạo HD44780 (datasheet trang 45)
-    localparam [7:0] INIT_SEQ [0:7] = '{
-        8'h38,  // Function Set ×4: 8-bit, 2 lines, 5x8 font
-        8'h38,
-        8'h38,
-        8'h38,
-        8'h08,  // Display OFF
-        8'h01,  // Clear Display
-        8'h06,  // Entry Mode: increment, no shift
-        8'h0C   // Display ON, cursor OFF, blink OFF
-    };
+    wire [7:0] INIT_SEQ [0:7];
+    
+    assign INIT_SEQ[0] = 8'h38; // Function Set ×4: 8-bit, 2 lines, 5x8 font
+    assign INIT_SEQ[1] = 8'h38;
+    assign INIT_SEQ[2] = 8'h38;
+    assign INIT_SEQ[3] = 8'h38;
+    assign INIT_SEQ[4] = 8'h08; // Display OFF
+    assign INIT_SEQ[5] = 8'h01; // Clear Display
+    assign INIT_SEQ[6] = 8'h06; // Entry Mode: increment, no shift
+    assign INIT_SEQ[7] = 8'h0C; // Display ON, cursor OFF, blink OFF
 	 
 	 // -----------------------------------------------------------------------------
 // TẦNG 1 — CLOCK DIVIDER & BUFFER (chạy trên clk 50MHz)
@@ -241,5 +241,5 @@ module LCD_Driver (
 	 
 	 
 	 
-	 
+endmodule	 
 	 

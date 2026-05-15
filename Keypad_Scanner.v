@@ -145,33 +145,37 @@ module Keypad_Scanner(
     always @(*) begin
         is_function = 1'b0;
         case ({row_temp, col_temp})
-            // --- PhÃ­m sá»‘ ---
+            // --- HÀNG 1 (1 2 3 A) ---
             8'b1110_1110: key_code = `KEY_1;
             8'b1110_1101: key_code = `KEY_2;
             8'b1110_1011: key_code = `KEY_3;
+            8'b1110_0111: begin key_code = `KEY_ENT;  is_function = 1'b1; end // Phím A -> Enter
+
+            // --- HÀNG 2 (4 5 6 B) ---
             8'b1101_1110: key_code = `KEY_4;
             8'b1101_1101: key_code = `KEY_5;
             8'b1101_1011: key_code = `KEY_6;
+            8'b1101_0111: begin key_code = `KEY_BACK; is_function = 1'b1; end // Phím B -> Xóa 1 ký t?
+
+            // --- HÀNG 3 (7 8 9 C) ---
             8'b1011_1110: key_code = `KEY_7;
             8'b1011_1101: key_code = `KEY_8;
             8'b1011_1011: key_code = `KEY_9;
+            8'b1011_0111: begin key_code = `KEY_CLR;  is_function = 1'b1; end // Phím C -> Xóa s?ch
+
+            // --- HÀNG 4 (* 0 # D) ---
+            8'b0111_1110: begin key_code = `KEY_NONE; is_function = 1'b1; end // Phím * (Ch?a dùng)
             8'b0111_1101: key_code = `KEY_0;
-            // --- PhÃ­m chá»©c nÄƒng ---
-            8'b0111_1110: begin key_code = `KEY_BACK; is_function = 1'b1; end // XÃ³a 1 kÃ½ tá»±
-            8'b0111_1011: begin key_code = `KEY_ENT;  is_function = 1'b1; end // XÃ¡c nháº­n
-            8'b1110_0111: begin key_code = `KEY_CLR;  is_function = 1'b1; end // XÃ³a toÃ n bá»™
-            8'b1101_0111: begin key_code = `KEY_HIDE; is_function = 1'b1; end // áº¨n/hiá»‡n máº­t kháº©u
-            // --- Tá»a Ä‘á»™ khÃ´ng há»£p lá»‡ (khÃ´ng nÃªn xáº£y ra khi debounce Ä‘Ãºng) ---
+            8'b0111_1011: begin key_code = `KEY_NONE; is_function = 1'b1; end // Phím # (Ch?a dùng)
+            8'b0111_0111: begin key_code = `KEY_HIDE; is_function = 1'b1; end // Phím D -> ?n/Hi?n pass
+
+            // --- T?a ?? không h?p l? ---
             default: begin
                 key_code    = `KEY_NONE;
                 is_function = 1'b1;
-                // synthesis translate_off
-                if (key_pressed_flag)
-                    $display("[KEYPAD ERROR] Toa do khong hop le: ROW=%b COL=%b",
-                             row_temp, col_temp);
-                // synthesis translate_on
             end
         endcase
     end
 
 endmodule
+
