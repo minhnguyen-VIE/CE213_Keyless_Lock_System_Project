@@ -4,82 +4,222 @@ K3
 cModel Technology
 Z0 dC:\altera\13.0sp1
 vCode_Checker
-Z1 IgaPP:=<hzR5[kX^R@ndPG0
-Z2 VnO4o8JTz@?5=PaKA;Q5PM1
-Z3 dD:\CE213\DO_AN
-Z4 w1777902933
-Z5 8D:/CE213/DO_AN/Code_Checker.v
-Z6 FD:/CE213/DO_AN/Code_Checker.v
+Z1 !s100 diia2m1]H=T;iVaYlLRzn3
+Z2 IOOi:T`8h3Ql@Y`62;_Hfk1
+Z3 VnO4o8JTz@?5=PaKA;Q5PM1
+Z4 dD:\CE213\DO_AN
+Z5 w1778217512
+Z6 8D:/CE213/DO_AN/Code_Checker.v
+Z7 FD:/CE213/DO_AN/Code_Checker.v
 L0 1
-Z7 OV;L;10.1d;51
+Z8 OV;L;10.1d;51
 r1
 31
-Z8 o-work work -O0
-Z9 n@code_@checker
+Z9 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Code_Checker.v|
+Z10 o-work work -O0
+Z11 n@code_@checker
+Z12 !s108 1779274595.224000
+Z13 !s107 D:/CE213/DO_AN/Code_Checker.v|
 !i10b 1
-Z10 !s100 dc4ZcVbN^:N6>DgUzdO630
 !s85 0
-Z11 !s108 1777902939.454000
-Z12 !s107 D:/CE213/DO_AN/Code_Checker.v|
-Z13 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Code_Checker.v|
 !s101 -O0
 vCode_Checker_tb
-!i10b 1
 Z14 !s100 9l]0ocRJMSj=OmcfTKHo_3
 Z15 ICeH@>]?:^J]QnfKhhiAd?1
 Z16 VnJ<L[A`Tz4nDAbc??ME7P1
-R3
+R4
 Z17 w1777902477
 Z18 8D:/CE213/DO_AN/Code_Checker_tb.v
 Z19 FD:/CE213/DO_AN/Code_Checker_tb.v
 L0 3
-R7
+R8
 r1
-!s85 0
 31
-!s108 1777902939.518000
-!s107 D:/CE213/DO_AN/Code_Checker_tb.v|
 Z20 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Code_Checker_tb.v|
-!s101 -O0
-R8
+R10
 Z21 n@code_@checker_tb
-vKeypad_Scanner
-Z22 !s100 d`>H9LMQeWl`do_<d:2_S0
-Z23 IJ>b=8RPWV0Fz]=9LAEB2<2
-Z24 VL^7HUWT?CaT@dZI[QdaPz2
-R3
-Z25 w1777384017
-Z26 8D:/CE213/DO_AN/Keypad_Scanner.v
-Z27 FD:/CE213/DO_AN/Keypad_Scanner.v
-L0 3
-R7
+Z22 !s108 1779274595.288000
+Z23 !s107 D:/CE213/DO_AN/Code_Checker_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vDigital_Lock_Top2
+Z24 IbmH<T^V:B2KQ[P_D6eNU12
+Z25 VGRbjZP_k1SN0l<cW5kTSz3
+R4
+Z26 w1779274591
+Z27 8D:\CE213\DO_AN\Digital_Lock_Top2.v
+Z28 FD:\CE213\DO_AN\Digital_Lock_Top2.v
+L0 37
+R8
 r1
 31
-Z28 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Keypad_Scanner.v|
+Z29 !s90 -reportprogress|300|-work|work|D:\CE213\DO_AN\Digital_Lock_Top2.v|
+R10
+Z30 n@digital_@lock_@top2
+Z31 !s100 W92Ab4clTRoCSPJDziRRL1
+Z32 !s108 1779274595.574000
+Z33 !s107 Common_Params.v|D:\CE213\DO_AN\Digital_Lock_Top2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vKeypad_Scanner
+Z34 !s100 V7TkUd]NMc@AmbEXI@9AL3
+Z35 IUAS;fX<Zn09FmoKzfoR^B3
+Z36 VL^7HUWT?CaT@dZI[QdaPz2
+R4
+Z37 w1778819036
+Z38 8D:/CE213/DO_AN/Keypad_Scanner.v
+Z39 FD:/CE213/DO_AN/Keypad_Scanner.v
+L0 17
 R8
-Z29 n@keypad_@scanner
-Z30 !s108 1777902939.349000
-Z31 !s107 Common_Params.v|D:/CE213/DO_AN/Keypad_Scanner.v|
+r1
+31
+Z40 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Keypad_Scanner.v|
+R10
+Z41 n@keypad_@scanner
+Z42 !s108 1779274595.123000
+Z43 !s107 Common_Params.v|D:/CE213/DO_AN/Keypad_Scanner.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vKeypad_Scanner_tb
-Z32 !s100 8=2AQH<d^i6j9Ye4RB?l_0
-Z33 I;f=DL_TTz8z_7U?C^jNa23
-Z34 V[IB=LW[jid;bim_]h4gkf2
-R3
-Z35 w1777384981
-Z36 8D:/CE213/DO_AN/Keypad_Scanner_tb.v
-Z37 FD:/CE213/DO_AN/Keypad_Scanner_tb.v
+Z44 !s100 Tn6ca8GHLEFKZh1;[z;_k0
+Z45 ICA2`Oe5k9`OZKTM<^5Kjc2
+Z46 V[IB=LW[jid;bim_]h4gkf2
+R4
+Z47 w1777384981
+Z48 8D:/CE213/DO_AN/Keypad_Scanner_tb.v
+Z49 FD:/CE213/DO_AN/Keypad_Scanner_tb.v
 L0 4
-R7
+R8
 r1
 31
-Z38 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Keypad_Scanner_tb.v|
+Z50 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Keypad_Scanner_tb.v|
+R10
+Z51 n@keypad_@scanner_tb
+Z52 !s108 1779274595.179000
+Z53 !s107 Common_Params.v|D:/CE213/DO_AN/Keypad_Scanner_tb.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vLCD_Driver
+Z54 !s100 OaCj74IWg4@hjkD1`bbGz2
+Z55 I3AJ=:lFUdU`Rk<QF^6[^I2
+Z56 VD:HDW=i:L2`d47odBh7N@1
+R4
+Z57 w1778818416
+Z58 8D:/CE213/DO_AN/LCD_Driver.v
+Z59 FD:/CE213/DO_AN/LCD_Driver.v
+L0 27
 R8
-Z39 n@keypad_@scanner_tb
-Z40 !s108 1777902939.401000
-Z41 !s107 Common_Params.v|D:/CE213/DO_AN/Keypad_Scanner_tb.v|
+r1
+31
+Z60 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/LCD_Driver.v|
+R10
+Z61 n@l@c@d_@driver
+Z62 !s108 1779274595.358000
+Z63 !s107 Common_Params.v|D:/CE213/DO_AN/LCD_Driver.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vMain_FSM
+!i10b 1
+Z64 !s100 j]dciB5<>@gL:7@3fPiP22
+Z65 ILlzG]Kk0]baEJ_j<>BB]e1
+Z66 VZ1hNoVf>l:K9;GcFF5fQb3
+R4
+Z67 w1779274421
+Z68 8D:/CE213/DO_AN/Main_FSM.v
+Z69 FD:/CE213/DO_AN/Main_FSM.v
+L0 3
+R8
+r1
+!s85 0
+31
+!s108 1779274595.701000
+!s107 Common_Params.v|D:/CE213/DO_AN/Main_FSM.v|
+Z70 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Main_FSM.v|
+!s101 -O0
+R10
+Z71 n@main_@f@s@m
+vPassword_Memory
+Z72 !s100 >gN6R__RdY[g6_8k^hD[O3
+Z73 IeBE`2;C8F<?X_2ARDakW23
+Z74 VR`iMUcZ>ozS:=KO5^;;JV0
+R4
+Z75 w1778217558
+Z76 8D:/CE213/DO_AN/Password_Memory.v
+Z77 FD:/CE213/DO_AN/Password_Memory.v
+L0 1
+R8
+r1
+31
+Z78 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Password_Memory.v|
+R10
+Z79 n@password_@memory
+Z80 !s108 1779274595.416000
+Z81 !s107 D:/CE213/DO_AN/Password_Memory.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vSwitch_Input
+Z82 !s100 >:a>B_fcDfj]@[MT^_hgn3
+Z83 Ic^ViASGeXVlY>5j_C>1cI0
+Z84 VhJS5n^M[BCoAJl^lnMT@V3
+R4
+Z85 w1779170101
+Z86 8D:/CE213/DO_AN/Switch_Input.v
+Z87 FD:/CE213/DO_AN/Switch_Input.v
+L0 45
+R8
+r1
+31
+Z88 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Switch_Input.v|
+R10
+Z89 n@switch_@input
+Z90 !s108 1779274595.526000
+Z91 !s107 Common_Params.v|D:/CE213/DO_AN/Switch_Input.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vtb_Digital_Lock_Top2
+Z92 !s100 ZP;>7=55G8a[9O1D]9zHC1
+Z93 I;IeiI=MkJBCiERQIgV:g_0
+Z94 VCMGFz6[4`4HlLVAeAeL1Y1
+R4
+Z95 w1779273927
+Z96 8D:\CE213\DO_AN\tb_Digital_Lock_Top2.v
+Z97 FD:\CE213\DO_AN\tb_Digital_Lock_Top2.v
+L0 10
+R8
+r1
+31
+Z98 !s90 -reportprogress|300|-work|work|D:\CE213\DO_AN\tb_Digital_Lock_Top2.v|
+R10
+Z99 ntb_@digital_@lock_@top2
+!i10b 1
+!s85 0
+Z100 !s108 1779274595.638000
+Z101 !s107 Common_Params.v|D:\CE213\DO_AN\tb_Digital_Lock_Top2.v|
+!s101 -O0
+vTop_Test_Keypad
+Z102 !s100 XS8O8Z?h79bnUg?[WnlRD0
+Z103 IcJkQN>U`dcTFE2>[1MJA91
+Z104 V_h^D3e32NnzdkEO:iOV832
+R4
+Z105 w1778826684
+Z106 8D:/CE213/DO_AN/Top_Test_Keypad.v
+Z107 FD:/CE213/DO_AN/Top_Test_Keypad.v
+L0 4
+R8
+r1
+31
+Z108 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Top_Test_Keypad.v|
+R10
+Z109 n@top_@test_@keypad
+Z110 !s108 1779274595.463000
+Z111 !s107 Common_Params.v|D:/CE213/DO_AN/Top_Test_Keypad.v|
 !i10b 1
 !s85 0
 !s101 -O0

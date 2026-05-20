@@ -145,31 +145,31 @@ module Keypad_Scanner(
     always @(*) begin
         is_function = 1'b0;
         case ({row_temp, col_temp})
-            // --- HÀNG 1 (1 2 3 A) ---
+            // --- H NG 1 (1 2 3 A) ---
             8'b1110_1110: key_code = `KEY_1;
             8'b1110_1101: key_code = `KEY_2;
             8'b1110_1011: key_code = `KEY_3;
-            8'b1110_0111: begin key_code = `KEY_ENT;  is_function = 1'b1; end // Phím A -> Enter
+            8'b1110_0111: begin key_code = `KEY_ENT;  is_function = 1'b1; end // Ph m A -> Enter
 
-            // --- HÀNG 2 (4 5 6 B) ---
+            // --- H NG 2 (4 5 6 B) ---
             8'b1101_1110: key_code = `KEY_4;
             8'b1101_1101: key_code = `KEY_5;
             8'b1101_1011: key_code = `KEY_6;
-            8'b1101_0111: begin key_code = `KEY_BACK; is_function = 1'b1; end // Phím B -> Xóa 1 ký t?
+            8'b1101_0111: begin key_code = `KEY_BACK; is_function = 1'b1; end // Ph m B -> X a 1 k  t?
 
-            // --- HÀNG 3 (7 8 9 C) ---
+            // --- H NG 3 (7 8 9 C) ---
             8'b1011_1110: key_code = `KEY_7;
             8'b1011_1101: key_code = `KEY_8;
             8'b1011_1011: key_code = `KEY_9;
-            8'b1011_0111: begin key_code = `KEY_CLR;  is_function = 1'b1; end // Phím C -> Xóa s?ch
+            8'b1011_0111: begin key_code = `KEY_CLR;  is_function = 1'b1; end // Ph m C -> X a s?ch
 
-            // --- HÀNG 4 (* 0 # D) ---
-            8'b0111_1110: begin key_code = `KEY_NONE; is_function = 1'b1; end // Phím * (Ch?a dùng)
+            // --- H NG 4 (* 0 # D) ---
+            8'b0111_1110: begin key_code = `KEY_NONE; is_function = 1'b1; end // Ph m * (Ch?a d ng)
             8'b0111_1101: key_code = `KEY_0;
-            8'b0111_1011: begin key_code = `KEY_NONE; is_function = 1'b1; end // Phím # (Ch?a dùng)
-            8'b0111_0111: begin key_code = `KEY_HIDE; is_function = 1'b1; end // Phím D -> ?n/Hi?n pass
+            8'b0111_1011: begin key_code = `KEY_NONE; is_function = 1'b1; end // Ph m # (Ch?a d ng)
+            8'b0111_0111: begin key_code = `KEY_HIDE; is_function = 1'b1; end // Ph m D -> ?n/Hi?n pass
 
-            // --- T?a ?? không h?p l? ---
+            // --- T?a ?? kh ng h?p l? ---
             default: begin
                 key_code    = `KEY_NONE;
                 is_function = 1'b1;

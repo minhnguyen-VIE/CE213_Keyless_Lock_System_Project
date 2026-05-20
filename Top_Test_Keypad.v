@@ -19,15 +19,14 @@ module Top_Test_Keypad(
     // --- MAPPING MẢNG GPIO VÀO ROWS/COLS ---
     wire [3:0] rows;
     
-    // Rows là ngõ ra (Output từ FPGA tới Keypad)
-    assign GPIO_0[13] = rows[0]; // Pin 1 của Keypad (Row 1)
-    assign GPIO_0[15] = rows[1]; // Pin 2 của Keypad (Row 2)
-    assign GPIO_0[17] = rows[2]; // Pin 3 của Keypad (Row 3)
-    assign GPIO_0[19] = rows[3]; // Pin 4 của Keypad (Row 4)
+    // Rows là ngõ ra (Output từ FPGA tới Keypad) - Cắm ở cụm 1, 3, 5, 7
+    assign GPIO_0[1] = rows[0]; // Pin 1 của Keypad (Row 1)
+    assign GPIO_0[3] = rows[1]; // Pin 2 của Keypad (Row 2)
+    assign GPIO_0[5] = rows[2]; // Pin 3 của Keypad (Row 3)
+    assign GPIO_0[7] = rows[3]; // Pin 4 của Keypad (Row 4)
 
-    // Cols là ngõ vào (Input từ Keypad tới FPGA)
-    // Lấy tín hiệu từ các index lẻ tương ứng
-    wire [3:0] cols = {GPIO_0[27], GPIO_0[25], GPIO_0[23], GPIO_0[21]};
+    // Cols là ngõ vào (Input từ Keypad tới FPGA) - Cắm ở cụm 9, 11, 13, 15
+    wire [3:0] cols = {GPIO_0[9], GPIO_0[11], GPIO_0[13], GPIO_0[15]};
 
     // Tín hiệu nội bộ
     wire [3:0] key_code;
