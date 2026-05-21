@@ -4068,7 +4068,6 @@ state_out[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |Digital_Lock_Top2|LCD_Driver:u_lcd
-clk => update_toggle_50m.CLK
 clk => buf_line2[0].CLK
 clk => buf_line2[1].CLK
 clk => buf_line2[2].CLK
@@ -4629,11 +4628,7 @@ rst_n => clk_div[11].ACLR
 rst_n => clk_div[12].ACLR
 rst_n => clk_div[13].ACLR
 rst_n => clk_div[14].ACLR
-rst_n => sync_toggle[0].ACLR
-rst_n => sync_toggle[1].ACLR
-rst_n => sync_toggle[2].ACLR
 rst_n => state~14.DATAIN
-rst_n => update_toggle_50m.ENA
 lcd_line1[0] => buf_line1[0].DATAIN
 lcd_line1[1] => buf_line1[1].DATAIN
 lcd_line1[2] => buf_line1[2].DATAIN
@@ -4890,7 +4885,7 @@ lcd_line2[124] => buf_line2[124].DATAIN
 lcd_line2[125] => buf_line2[125].DATAIN
 lcd_line2[126] => buf_line2[126].DATAIN
 lcd_line2[127] => buf_line2[127].DATAIN
-lcd_update => update_toggle_50m.OUTPUTSELECT
+lcd_update => update_pending.OUTPUTSELECT
 lcd_update => buf_line1[127].ENA
 lcd_update => buf_line1[126].ENA
 lcd_update => buf_line1[125].ENA

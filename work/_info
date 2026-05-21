@@ -18,7 +18,7 @@ r1
 Z9 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Code_Checker.v|
 Z10 o-work work -O0
 Z11 n@code_@checker
-Z12 !s108 1779274595.224000
+Z12 !s108 1779334888.985000
 Z13 !s107 D:/CE213/DO_AN/Code_Checker.v|
 !i10b 1
 !s85 0
@@ -38,28 +38,28 @@ r1
 Z20 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Code_Checker_tb.v|
 R10
 Z21 n@code_@checker_tb
-Z22 !s108 1779274595.288000
+Z22 !s108 1779334889.044000
 Z23 !s107 D:/CE213/DO_AN/Code_Checker_tb.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vDigital_Lock_Top2
-Z24 IbmH<T^V:B2KQ[P_D6eNU12
+Z24 IEkh4SmUdkgUOJn<GFmP<Q1
 Z25 VGRbjZP_k1SN0l<cW5kTSz3
 R4
 Z26 w1779274591
-Z27 8D:\CE213\DO_AN\Digital_Lock_Top2.v
-Z28 FD:\CE213\DO_AN\Digital_Lock_Top2.v
+Z27 8D:/CE213/DO_AN/Digital_Lock_Top2.v
+Z28 FD:/CE213/DO_AN/Digital_Lock_Top2.v
 L0 37
 R8
 r1
 31
-Z29 !s90 -reportprogress|300|-work|work|D:\CE213\DO_AN\Digital_Lock_Top2.v|
 R10
-Z30 n@digital_@lock_@top2
-Z31 !s100 W92Ab4clTRoCSPJDziRRL1
-Z32 !s108 1779274595.574000
-Z33 !s107 Common_Params.v|D:\CE213\DO_AN\Digital_Lock_Top2.v|
+Z29 n@digital_@lock_@top2
+Z30 !s100 nYb1kiZ6d]T<?FkDDAUiJ3
+Z31 !s108 1779334889.383000
+Z32 !s107 Common_Params.v|D:/CE213/DO_AN/Digital_Lock_Top2.v|
+Z33 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Digital_Lock_Top2.v|
 !i10b 1
 !s85 0
 !s101 -O0
@@ -78,7 +78,7 @@ r1
 Z40 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Keypad_Scanner.v|
 R10
 Z41 n@keypad_@scanner
-Z42 !s108 1779274595.123000
+Z42 !s108 1779334888.830000
 Z43 !s107 Common_Params.v|D:/CE213/DO_AN/Keypad_Scanner.v|
 !i10b 1
 !s85 0
@@ -98,28 +98,28 @@ r1
 Z50 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Keypad_Scanner_tb.v|
 R10
 Z51 n@keypad_@scanner_tb
-Z52 !s108 1779274595.179000
+Z52 !s108 1779334888.919000
 Z53 !s107 Common_Params.v|D:/CE213/DO_AN/Keypad_Scanner_tb.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vLCD_Driver
-Z54 !s100 OaCj74IWg4@hjkD1`bbGz2
-Z55 I3AJ=:lFUdU`Rk<QF^6[^I2
-Z56 VD:HDW=i:L2`d47odBh7N@1
+Z54 Icmk4HU[M]djo;CoNk6aXL2
+Z55 VD:HDW=i:L2`d47odBh7N@1
 R4
-Z57 w1778818416
-Z58 8D:/CE213/DO_AN/LCD_Driver.v
-Z59 FD:/CE213/DO_AN/LCD_Driver.v
-L0 27
+Z56 w1779334841
+Z57 8D:\CE213\DO_AN\LCD_Driver.v
+Z58 FD:\CE213\DO_AN\LCD_Driver.v
+L0 30
 R8
 r1
 31
-Z60 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/LCD_Driver.v|
 R10
-Z61 n@l@c@d_@driver
-Z62 !s108 1779274595.358000
-Z63 !s107 Common_Params.v|D:/CE213/DO_AN/LCD_Driver.v|
+Z59 n@l@c@d_@driver
+Z60 !s100 meUM?Gb<KPQZ?TUFng03P2
+Z61 !s108 1779334889.102000
+Z62 !s107 Common_Params.v|D:\CE213\DO_AN\LCD_Driver.v|
+Z63 !s90 -reportprogress|300|-work|work|D:\CE213\DO_AN\LCD_Driver.v|
 !i10b 1
 !s85 0
 !s101 -O0
@@ -137,7 +137,7 @@ R8
 r1
 !s85 0
 31
-!s108 1779274595.701000
+!s108 1779334889.536000
 !s107 Common_Params.v|D:/CE213/DO_AN/Main_FSM.v|
 Z70 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Main_FSM.v|
 !s101 -O0
@@ -158,7 +158,7 @@ r1
 Z78 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Password_Memory.v|
 R10
 Z79 n@password_@memory
-Z80 !s108 1779274595.416000
+Z80 !s108 1779334889.166000
 Z81 !s107 D:/CE213/DO_AN/Password_Memory.v|
 !i10b 1
 !s85 0
@@ -178,30 +178,30 @@ r1
 Z88 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Switch_Input.v|
 R10
 Z89 n@switch_@input
-Z90 !s108 1779274595.526000
+Z90 !s108 1779334889.309000
 Z91 !s107 Common_Params.v|D:/CE213/DO_AN/Switch_Input.v|
 !i10b 1
 !s85 0
 !s101 -O0
 vtb_Digital_Lock_Top2
-Z92 !s100 ZP;>7=55G8a[9O1D]9zHC1
-Z93 I;IeiI=MkJBCiERQIgV:g_0
-Z94 VCMGFz6[4`4HlLVAeAeL1Y1
+Z92 IUYa^RnW@i<3hZF1^RJAUf0
+Z93 VCMGFz6[4`4HlLVAeAeL1Y1
 R4
-Z95 w1779273927
-Z96 8D:\CE213\DO_AN\tb_Digital_Lock_Top2.v
-Z97 FD:\CE213\DO_AN\tb_Digital_Lock_Top2.v
+Z94 w1779273927
+Z95 8D:/CE213/DO_AN/tb_Digital_Lock_Top2.v
+Z96 FD:/CE213/DO_AN/tb_Digital_Lock_Top2.v
 L0 10
 R8
 r1
 31
-Z98 !s90 -reportprogress|300|-work|work|D:\CE213\DO_AN\tb_Digital_Lock_Top2.v|
 R10
-Z99 ntb_@digital_@lock_@top2
+Z97 ntb_@digital_@lock_@top2
 !i10b 1
+Z98 !s100 ]g2AI0f17RX_eW5<DbS6;1
 !s85 0
-Z100 !s108 1779274595.638000
-Z101 !s107 Common_Params.v|D:\CE213\DO_AN\tb_Digital_Lock_Top2.v|
+Z99 !s108 1779334889.457000
+Z100 !s107 Common_Params.v|D:/CE213/DO_AN/tb_Digital_Lock_Top2.v|
+Z101 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/tb_Digital_Lock_Top2.v|
 !s101 -O0
 vTop_Test_Keypad
 Z102 !s100 XS8O8Z?h79bnUg?[WnlRD0
@@ -218,7 +218,7 @@ r1
 Z108 !s90 -reportprogress|300|-work|work|D:/CE213/DO_AN/Top_Test_Keypad.v|
 R10
 Z109 n@top_@test_@keypad
-Z110 !s108 1779274595.463000
+Z110 !s108 1779334889.238000
 Z111 !s107 Common_Params.v|D:/CE213/DO_AN/Top_Test_Keypad.v|
 !i10b 1
 !s85 0
